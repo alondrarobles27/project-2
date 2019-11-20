@@ -1,0 +1,283 @@
+.header{
+	font-size: 40px;
+	color: white;
+	background-color:black;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	margin-top: 0px;
+
+}
+.home{
+	background-image:url("https://www.thenation.com/wp-content/uploads/2015/10/Alcatraz_prison_block_cc_img.jpg");
+	background-size: 100%;
+}
+
+img{
+	height: 200px;
+	width: 300px;
+}
+
+.grid{
+	Height: 500px;
+	Width: 100%;
+	display: grid;
+	grid-column-gap: 10px;
+	grid-template:20% 20% 20% 20%/ 20% 20% 20% 20% 20%;
+	margin-top: 350px;
+	padding-top: 25px;
+}
+
+.box{
+	border:2px solid white;
+}
+.i-sj, .i-ef, .i-hf, .i-sd, .i-e, .d-sj, .d-ef, .d-hf, .d-sd{
+    border: 2px solid gray;
+	background-color: gray;
+}
+	
+.i-sj, .i-ef, .i-hf{
+	grid-row:2/4;
+	padding-left: 30px;
+}
+.i-sd, .i-e{
+	grid-row:2/4;
+	padding-left: 30px;
+}
+.d-sj, .d-ef, .d-hf, .d-sd{
+	font-size: 18px;
+	color:white;
+	grid-row:4/5;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.sj, .i-sj, .d-sj{
+	grid-column: 2/3;
+}
+
+.ef, .i-ef, .d-ef{
+   grid-column: 3/4;
+}
+
+.hf, .i-hf, .d-hf{
+	grid-column: 4/5;
+}
+
+.sd, .i-sd, .d-sd{
+	grid-column: 1/2;
+}
+
+.e, .i-e{
+	grid-column: 5/6;
+
+}
+
+.sd{
+	grid-row: 1/2;
+	font-weight:bold;
+}
+.e{
+	grid-row: 1/2;
+	font-weight:bold;
+}
+.i-e{
+	grid-row: 2/5;
+	padding-top: 35px;
+}
+.sj, .ef, .hf, .sd, .e{
+	font-size: 25px;
+	font-weight: bold;
+	border: 2px solid black;
+	background-color: black;
+	color: white;
+	padding-left:95px;
+	padding-top: 25px;
+
+}
+a:visited{
+	color: white;
+}
+.sj-header{
+	text-align: center;
+}
+.sj-image{
+	width:1500px;
+	height: 500px;
+	margin-left:200px;
+}
+.ef-header{
+	text-align: center;
+}
+.ef-image{
+	height: 500px;
+	width: 1000px;
+	margin-left:200px;
+}
+.hf-image{
+	height: 400px;
+	width: 900px;
+	margin-left:500px;
+}
+.return{
+	height:115px;
+	width:165px;
+}
+.grid-sc{
+	Height: 1000px;
+	Width: 100%;
+	display: grid;
+	border: solid white 2px;
+	grid-template:10% 10% 10% 10% 10% 10% 10% 10% 10% 10%/ 100%;
+}
+.item-1{
+
+}
+.item-2{
+
+	grid-row: 2/3;
+	text-align: center;
+	font-size: 45px;
+}
+.item-3{
+
+	grid-row: 3/4;
+}
+.item-4{
+	
+	grid-row: 4/5;
+}
+.item-5{
+
+	grid-row: 5/6;
+}
+.item-6{
+
+	grid-row: 6/7;
+}
+	
+.grid-sj{
+	Height: 900px;
+	Width: 100%;
+	display: grid;
+	border: solid white 2px;
+	grid-template:10% 10% 10% 10% 10% 10% 10% 10% 10% 10%/ 100%;
+}
+.item-7{
+	border: solid white 2px;
+}
+.item-8{
+	border: solid white 2px;
+	grid-row: 2/3;
+	text-align: center;
+	font-size: 45px;
+}
+.item-9{
+	border: solid white 2px;
+	grid-row: 3/4;
+}
+.item-10{
+	border: solid white 2px;
+	grid-row: 4/5;
+}
+.item-11{
+	border: solid white 2px;
+	grid-row: 5/6;
+}
+.item-12{
+	border: solid white 2px;
+	grid-row: 6/7;
+}
+.item-13{
+	border: solid white 2px;
+	grid-row: 7/8;
+}
+.grid-ef{
+	Height: 900px;
+	Width: 100%;
+	display: grid;
+	border: solid white 2px;
+	grid-template:10% 10% 10% 10% 10% 10% 10% 10% 10% 10%/ 100%;
+}
+.item-14{
+	border: solid white 2px;
+}
+.item-15{
+	border: solid white 2px;
+	grid-row: 2/3;
+	text-align: center;
+	font-size: 45px;
+}
+.item-16{
+	border: solid white 2px;
+	grid-row: 3/4;
+}
+.item-17{
+	border: solid white 2px;
+	grid-row: 4/5;
+	text-align: center;
+}
+.item-18{
+	border: solid white 2px;
+	grid-row: 5/6;
+}
+.item-19{
+	border: solid white 2px;
+	grid-row: 6/7;
+	text-align: center;
+}
+	
+.grid-hf{
+	Height: 900px;
+	Width: 100%;
+	display: grid;
+	border: solid white 2px;
+	grid-template:10% 10% 10% 10% 10% 10% 10% 10% 10% 10%/ 100%;
+}
+.item-20{
+
+}
+.item-21{
+
+	grid-row: 2/3;
+	text-align: center;
+	font-size: 45px;
+}
+.item-22{
+	
+	grid-row: 3/4;
+}
+.item-23{
+
+	grid-row: 9/10;
+	text-align: center;
+	font-size: 25px;
+}
+
+	
+.grid-campaign{
+	Height: 900px;
+	Width: 100%;
+	display: grid;
+	border: solid white 2px;
+	grid-template:10% 10% 10% 10% 10% 10% 10% 10% 10% 10%%/ 100%;
+}
+.item-26{
+	border: solid white 2px;
+}
+.item-27{
+	border: solid white 2px;
+}
+.item-28{
+	border: solid white 2px;
+}
+.item-29{
+	border: solid white 2px;
+}
+.item-30{
+	border: solid white 2px;
+}
+.item-6{
+	border: solid white 2px;
+}
+	
